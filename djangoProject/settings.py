@@ -24,7 +24,9 @@ SECRET_KEY = 'django-insecure-s9h%(kzkrzesr1=cb5mvf504xlb3rk@w&$_srg8j08qqt8t7ug
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'passwordgenerator-ebon-five.vercel.app',
+]
 
 
 # Application definition
